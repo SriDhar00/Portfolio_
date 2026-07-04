@@ -1,0 +1,22 @@
+{
+  "name": "Sridhar N",
+  "title": "Computer & Communication Engineering Student",
+  "roles": ["Aspiring Software Developer", "Data Analyst", "MERN Stack Enthusiast"],
+  "tagline": "Building end-to-end systems and dashboards that turn raw data into decisions.",
+  "intro": "Final-year Computer and Communication Engineering student skilled in Java, Python, and problem-solving. Quick learner with strong teamwork and communication skills, seeking an opportunity to apply technical knowledge and build a career in software development.",
+  "objective": "Seeking an opportunity to apply technical knowledge in software development and data analytics, contribute to real-world engineering teams, and keep growing as a full-stack and data-driven problem solver.",
+  "photo": "assets/profile.jpg",
+  "resume": "assets/resume.pdf",
+  "email": "sridharsrids5@gmail.com",
+  "phone": "+919597760309",
+  "address": "38, Anna Avenue, Kerala Samajam, T. Kottampatti, Pollachi",
+  "languages": ["English", "Tamil"],
+  "interests": ["Data Visualization", "Full-Stack Development", "Problem Solving", "Cloud Computing"],
+  "strengths": ["Quick Learner", "Team Collaboration", "Clear Communication", "Analytical Thinking"],
+  "stats": [
+    { "label": "Projects Built", "value": 3, "suffix": "+" },
+    { "label": "Certifications", "value": 4, "suffix": "" },
+    { "label": "CGPA", "value": 6.92, "suffix": "" },
+    { "label": "Core Stack", "value": 4, "suffix": "" }
+  ]
+}

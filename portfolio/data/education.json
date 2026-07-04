@@ -1,0 +1,23 @@
+[
+  {
+    "degree": "Bachelor of Engineering (B.E.) — Computer and Communication Engineering",
+    "institution": "Sri Eshwar College of Engineering",
+    "duration": "2023 – 2027",
+    "score": "CGPA: 6.92",
+    "type": "degree"
+  },
+  {
+    "degree": "Higher Secondary Certificate (HSC)",
+    "institution": "Sri Lathangi Vidhya Mandir Matric Higher Secondary School, Pollachi",
+    "duration": "2020 – 2021",
+    "score": "Percentage: 86.5%",
+    "type": "school"
+  },
+  {
+    "degree": "SSLC",
+    "institution": "Sri Lathangi Vidhya Mandir Matric Higher Secondary School, Pollachi",
+    "duration": "2018 – 2019",
+    "score": "Percentage: 80.6%",
+    "type": "school"
+  }
+]

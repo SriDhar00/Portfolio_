@@ -1,0 +1,66 @@
+{
+  "categories": [
+    {
+      "name": "Programming Languages",
+      "icon": "FiCode",
+      "skills": [
+        { "name": "Java", "level": 75 },
+        { "name": "Python", "level": 65 },
+        { "name": "JavaScript", "level": 60 }
+      ]
+    },
+    {
+      "name": "Web Development",
+      "icon": "FiGlobe",
+      "skills": [
+        { "name": "HTML5", "level": 85 },
+        { "name": "CSS", "level": 80 },
+        { "name": "React.js", "level": 65 },
+        { "name": "Node.js", "level": 60 },
+        { "name": "Express.js", "level": 55 }
+      ]
+    },
+    {
+      "name": "Data Analytics",
+      "icon": "FiBarChart2",
+      "skills": [
+        { "name": "Power BI", "level": 80 },
+        { "name": "Excel", "level": 78 },
+        { "name": "DAX / Power Query", "level": 70 }
+      ]
+    },
+    {
+      "name": "Database",
+      "icon": "FiDatabase",
+      "skills": [
+        { "name": "SQL", "level": 70 },
+        { "name": "MongoDB", "level": 60 }
+      ]
+    },
+    {
+      "name": "Cloud & Tools",
+      "icon": "FiCloud",
+      "skills": [
+        { "name": "AWS (Basic)", "level": 45 },
+        { "name": "Git & GitHub", "level": 75 }
+      ]
+    },
+    {
+      "name": "Core Concepts",
+      "icon": "FiCpu",
+      "skills": [
+        { "name": "Object-Oriented Programming", "level": 78 },
+        { "name": "Data Structures & Algorithms", "level": 60 }
+      ]
+    },
+    {
+      "name": "Soft Skills",
+      "icon": "FiUsers",
+      "skills": [
+        { "name": "Teamwork", "level": 88 },
+        { "name": "Communication", "level": 85 },
+        { "name": "Quick Learning", "level": 90 }
+      ]
+    }
+  ]
+}

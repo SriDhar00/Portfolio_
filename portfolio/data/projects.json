@@ -1,0 +1,53 @@
+[
+  {
+    "id": "student-performance-dashboard",
+    "title": "Student Performance Analysis Dashboard",
+    "category": "Data Analytics",
+    "image": "",
+    "description": "An interactive dashboard to analyze student performance and attendance, built with Power BI on top of a cleaned academic dataset.",
+    "technologies": ["Excel", "Power BI", "Power Query", "DAX"],
+    "features": [
+      "Power Query used for data cleaning and shaping",
+      "DAX measures for key academic metrics",
+      "Interactive charts, KPI cards, and slicers for effective data visualization"
+    ],
+    "role": "Data Analyst & Dashboard Designer",
+    "github": "https://github.com/SriDhar00",
+    "demo": "",
+    "featured": true
+  },
+  {
+    "id": "ai-smart-learning",
+    "title": "AI-Based Smart Learning & Automated Evaluation System",
+    "category": "Data Analytics",
+    "image": "",
+    "description": "An AI-assisted learning platform that personalizes learning paths and automates evaluation and feedback for students.",
+    "technologies": ["Python", "AI/ML Concepts"],
+    "features": [
+      "Personalized learning recommendations",
+      "Automated evaluation and intelligent grading",
+      "Performance tracking with feedback generation"
+    ],
+    "role": "Developer",
+    "github": "https://github.com/SriDhar00",
+    "demo": "",
+    "featured": true
+  },
+  {
+    "id": "fitness-tracker",
+    "title": "Fitness Tracker",
+    "category": "Web Development",
+    "image": "",
+    "description": "A full-stack fitness tracking web application built on the MERN stack that lets users log workouts and monitor progress.",
+    "technologies": ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "MongoDB"],
+    "features": [
+      "Log workouts and track calories",
+      "Set fitness goals and monitor progress over time",
+      "MongoDB for data storage, Node.js + Express.js for the backend"
+    ],
+    "role": "Full-Stack Developer",
+    "github": "https://github.com/SriDhar00",
+    "demo": "",
+    "featured": true
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "company": "MERN Stack Internship",
+    "role": "Full-Stack Development Intern",
+    "duration": "Update duration",
+    "responsibilities": [
+      "Used the MERN Stack (MongoDB, Express.js, React.js, and Node.js) to build a full-stack application from scratch, strengthening end-to-end development skills",
+      "Gained practical experience working in an Agile development environment while collaborating with team members",
+      "Utilized Git and GitHub for version control, code management, and efficient team collaboration"
+    ]
+  }
+]

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sridhar N — Software Developer & Data Analyst Portfolio</title>
+<meta name="description" content="Portfolio of Sridhar N — Computer & Communication Engineering student, full-stack developer and data analyst skilled in Java, MERN stack, SQL and Power BI.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Loader -->
+<div id="loader">
+  <div class="loader-mark">BOOTING PORTFOLIO...</div>
+  <div class="loader-bar"></div>
+</div>
+
+<!-- Scroll progress -->
+<div id="scroll-progress"></div>
+
+<!-- Signature signal trace -->
+<div id="signal-trace">
+  <div class="trace-line"></div>
+  <div class="trace-fill"></div>
+</div>
+
+<!-- Navbar -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="logo">SRIDHAR<span>.N</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme"><i class="fa-solid fa-moon"></i></button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="container hero-grid">
+    <div class="reveal in">
+      <div class="hero-kicker"><span class="dot"></span> AVAILABLE FOR OPPORTUNITIES</div>
+      <h1>Hi, I'm <span class="accent" id="hero-name">Sridhar N</span></h1>
+      <span id="typed-role"></span>
+      <p class="desc" id="hero-desc">Building end-to-end systems and dashboards that turn raw data into decisions.</p>
+      <div class="hero-actions">
+        <a href="assets/resume.pdf" download class="btn btn-primary"><i class="fa-solid fa-download"></i> Download Resume</a>
+        <a href="#contact" class="btn btn-outline"><i class="fa-regular fa-paper-plane"></i> Hire Me</a>
+        <a href="#contact" class="btn btn-ghost"><i class="fa-regular fa-envelope"></i> Contact Me</a>
+      </div>
+      <div class="hero-stats" id="hero-stats"></div>
+    </div>
+    <div class="hero-visual">
+      <div class="dashboard-card">
+        <div class="dash-header">
+          <span>PROFILE.exe</span>
+          <div class="dash-dots"><span></span><span></span><span></span></div>
+        </div>
+        <div class="dash-photo"><img src="assets/profile.jpg" alt="Portrait of Sridhar N" id="hero-photo"></div>
+        <div class="dash-bars">
+          <i style="height:40%"></i><i style="height:70%; animation-delay:.1s"></i><i style="height:55%; animation-delay:.2s"></i>
+          <i style="height:90%; animation-delay:.3s"></i><i style="height:65%; animation-delay:.4s"></i><i style="height:80%; animation-delay:.5s"></i>
+        </div>
+        <div class="dash-caption"><span>STATUS</span><b>ONLINE</b></div>
+      </div>
+      <div class="float-chip chip-1"><span class="chip-dot"></span> Power BI</div>
+      <div class="float-chip chip-2"><span class="chip-dot"></span> MERN Stack</div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="eyebrow">Who I Am</div>
+    <h2 class="section-title reveal">About Me</h2>
+    <p class="section-sub reveal">A quick look at my background, what drives me, and how I work.</p>
+    <div class="about-grid">
+      <div class="about-card reveal">
+        <h3>Languages</h3>
+        <div class="tag-list" id="about-languages"></div>
+        <h3 style="margin-top:22px;">Interests</h3>
+        <div class="tag-list" id="about-interests"></div>
+        <h3 style="margin-top:22px;">Strengths</h3>
+        <div class="tag-list" id="about-strengths"></div>
+      </div>
+      <div class="about-text reveal">
+        <p class="lead" id="about-intro"></p>
+        <p id="about-objective"></p>
+        <div class="about-columns">
+          <div>
+            <h3 style="font-family:var(--font-display);font-size:1rem;margin-bottom:10px;">Career Objective</h3>
+            <p style="font-size:0.9rem;">Apply my technical knowledge in real engineering teams, keep leveling up in full-stack development and data analytics, and grow into a dependable software developer.</p>
+          </div>
+          <div>
+            <h3 style="font-family:var(--font-display);font-size:1rem;margin-bottom:10px;">Currently</h3>
+            <p style="font-size:0.9rem;">Final-year Computer & Communication Engineering student at Sri Eshwar College of Engineering, building projects across data analytics and the MERN stack.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" style="background:var(--ink-2);">
+  <div class="container">
+    <div class="eyebrow">What I Work With</div>
+    <h2 class="section-title reveal">Skills</h2>
+    <p class="section-sub reveal">Languages, frameworks and tools I use to build and analyze.</p>
+    <div class="skills-grid" id="skills-grid"></div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <div class="eyebrow">Selected Work</div>
+    <h2 class="section-title reveal">Projects</h2>
+    <p class="section-sub reveal">A mix of data dashboards and full-stack builds — search or filter to browse.</p>
+    <div class="projects-toolbar">
+      <div class="filter-chips" id="project-filters"></div>
+      <div class="search-box">
+        <i class="fa-solid fa-magnifying-glass" style="color:var(--slate);"></i>
+        <input type="text" id="project-search" placeholder="Search projects...">
+      </div>
+    </div>
+    <div class="projects-grid" id="projects-grid"></div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" style="background:var(--ink-2);">
+  <div class="container">
+    <div class="eyebrow">Hands-On Experience</div>
+    <h2 class="section-title reveal">Internship</h2>
+    <p class="section-sub reveal">Where I applied the MERN stack in a real, collaborative build.</p>
+    <div class="timeline" id="experience-timeline"></div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="container">
+    <div class="eyebrow">Academic Background</div>
+    <h2 class="section-title reveal">Education</h2>
+    <p class="section-sub reveal">My academic path from school to engineering college.</p>
+    <div class="timeline" id="education-timeline"></div>
+  </div>
+</section>
+
+<!-- CERTIFICATES -->
+<section id="certificates" style="background:var(--ink-2);">
+  <div class="container">
+    <div class="eyebrow">Verified Learning</div>
+    <h2 class="section-title reveal">Certifications</h2>
+    <p class="section-sub reveal">Courses and credentials that back up the skills above.</p>
+    <div class="cert-grid" id="cert-grid"></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="eyebrow">Let's Talk</div>
+    <h2 class="section-title reveal">Contact</h2>
+    <p class="section-sub reveal">Open to internships, junior developer and data analyst roles.</p>
+    <div class="contact-grid">
+      <div class="reveal">
+        <div class="contact-info-list" id="contact-info-list"></div>
+        <div class="social-row" id="social-row"></div>
+      </div>
+      <form class="contact-form reveal" id="contact-form" novalidate>
+        <div class="form-row">
+          <div class="field" id="field-name">
+            <label for="cf-name">Name</label>
+            <input type="text" id="cf-name" name="name" placeholder="Your name">
+            <span class="error" id="err-name"></span>
+          </div>
+          <div class="field" id="field-email">
+            <label for="cf-email">Email</label>
+            <input type="email" id="cf-email" name="email" placeholder="you@example.com">
+            <span class="error" id="err-email"></span>
+          </div>
+        </div>
+        <div class="field" id="field-subject">
+          <label for="cf-subject">Subject</label>
+          <input type="text" id="cf-subject" name="subject" placeholder="What's this about?">
+          <span class="error" id="err-subject"></span>
+        </div>
+        <div class="field" id="field-message">
+          <label for="cf-message">Message</label>
+          <textarea id="cf-message" name="message" rows="5" placeholder="Write your message..."></textarea>
+          <span class="error" id="err-message"></span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block"><i class="fa-regular fa-paper-plane"></i> Send Message</button>
+        <div id="form-status"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container footer-inner">
+    <p>&copy; <span id="footer-year"></span> Sridhar N. All rights reserved. · Visitors: <span class="count" id="visitor-count">—</span></p>
+    <div class="social-row" id="footer-social-row"></div>
+  </div>
+</footer>
+
+<button id="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<!-- Project detail modal -->
+<div class="modal-overlay" id="project-modal">
+  <div class="modal-box">
+    <button class="modal-close" id="modal-close" aria-label="Close">&times;</button>
+    <div id="modal-content"></div>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
